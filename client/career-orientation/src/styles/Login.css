@@ -1,0 +1,119 @@
+.login-container {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  padding: 20px;
+}
+
+.login-card {
+  border-radius: 12px;
+  border: none;
+  width: 100%;
+  max-width: 900px;
+}
+
+.login-image img {
+  border-radius: 12px 0 0 12px;
+  object-fit: cover;
+}
+
+.login-title {
+  color: #2c3e50;
+  font-weight: 700;
+}
+
+.login-btn {
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: 600;
+  background: #4e73df;
+  border: none;
+}
+
+.login-btn:hover {
+  background: #2e59d9;
+}
+
+.register-link {
+  color: #4e73df;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.register-link:hover {
+  text-decoration: underline;
+}
+
+.fade-in-left {
+  animation: slideInLeft 0.8s ease forwards;
+}
+
+.fade-in-right {
+  animation: slideInRight 0.8s ease forwards;
+}
+
+@keyframes slideInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive cho điện thoại */
+@media (max-width: 768px) {
+  .login-container {
+    padding: 10px;
+  }
+
+  .login-card {
+    border-radius: 10px;
+  }
+
+  .card-body {
+    padding: 1.5rem !important;
+  }
+}
+
+/* Responsive cho điện thoại rất nhỏ */
+@media (max-width: 576px) {
+  .login-container {
+    background: white;
+  }
+
+  .login-card {
+    box-shadow: none !important;
+  }
+
+  .card-body {
+    padding: 1rem !important;
+  }
+}

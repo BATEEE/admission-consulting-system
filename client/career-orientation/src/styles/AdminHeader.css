@@ -1,0 +1,38 @@
+.admin-header {
+  height: 70px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  margin-top: 20px;
+  margin-right: 40px;
+  border-radius: 10px;
+}
+
+.admin-header .dropdown-toggle::after {
+  display: none;
+}
+
+.admin-header .dropdown-toggle {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.admin-header .dropdown-toggle:hover, 
+.admin-header .dropdown-toggle:focus {
+  background-color: #f8f9fa !important;
+}
+
+.admin-header .dropdown-menu {
+  margin-top: 10px;
+  min-width: 150px;
+}
+
+.admin-header .dropdown-item {
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.admin-header .dropdown-item:hover {
+  background-color: #f8f9fa;
+}
