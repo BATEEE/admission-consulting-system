@@ -112,3 +112,13 @@ Giảng viên hướng dẫn: ThS. Phan Trần Minh Khuê
 📜 Giấy phép
 
 Phát hành theo MIT License
+
+
+
+
+Chức năng đăng ký, đăng nhập
+Chức năng “Làm trắc nghiệm Holland”
+Chức năng nhập điểm thi & gợi ý ngành
+Chức năng tra cứu điểm chuẩn
+Chức năng quản trị (Admin)
+
