@@ -22,7 +22,7 @@ Dữ liệu phụ thuộc vào nguồn công khai của các trường → cần
 - Vite
 - Axios (API calls)
 - React Router DOM
-- Tailwind CSS
+- Bootstrap5 CSS
 
 ---
 
