@@ -80,17 +80,33 @@ VITE_API_URL=http://localhost:8080/api
 
 📌 Chức năng chính
 
-Đăng ký / Đăng nhập (JWT)
+- Đăng ký / Đăng nhập (JWT)
+<img width="945" height="450" alt="image" src="https://github.com/user-attachments/assets/926992b9-b090-4ce6-8f80-1bd39fbf0934" />
+<img width="945" height="457" alt="image" src="https://github.com/user-attachments/assets/4e1b0d24-5141-40ac-b878-c2c9b8d53f64" />
 
-Quản lý tài khoản (Admin / Học sinh / Giáo viên)
+- Quản lý tài khoản (Admin / Học sinh / Giáo viên)
+<img width="945" height="455" alt="image" src="https://github.com/user-attachments/assets/6d820a65-6d8e-4eb4-8bca-190af24df4b8" />
+<img width="945" height="356" alt="image" src="https://github.com/user-attachments/assets/7e023ba3-b32d-4fd5-83d8-c7f0701f00d6" />
+<img width="945" height="513" alt="image" src="https://github.com/user-attachments/assets/21d4e564-091e-4eb4-a558-52e197889e9a" />
+
+- Chức năng “Làm trắc nghiệm Holland”
+<img width="945" height="449" alt="image" src="https://github.com/user-attachments/assets/818d8afe-0d5a-48d5-8cbf-de6d2ba95ea1" />
+<img width="945" height="455" alt="image" src="https://github.com/user-attachments/assets/ef59182e-6115-415d-8637-bc250db9eda3" />
+<img width="945" height="442" alt="image" src="https://github.com/user-attachments/assets/a6935705-cbe9-43f3-b80d-f554573c3cdd" />
+<img width="945" height="458" alt="image" src="https://github.com/user-attachments/assets/8428d142-4a6c-4bb0-bf95-c6a2eba98437" />
+<img width="945" height="457" alt="image" src="https://github.com/user-attachments/assets/a1e8f0d9-6a1a-40d3-8729-fca23ba721b3" />
 
 Gợi ý ngành học dựa trên điểm thi + trắc nghiệm hướng nghiệp (Holland, MBTI)
-
-Quản lý ngành/trường và điểm chuẩn
+<img width="945" height="457" alt="image" src="https://github.com/user-attachments/assets/a317f5b6-1a38-4d63-b676-15d6f5daddbc" />
+<img width="945" height="454" alt="image" src="https://github.com/user-attachments/assets/f6c1e0d5-53b2-4e7f-bb35-e7aca50043b1" />
+<img width="945" height="458" alt="image" src="https://github.com/user-attachments/assets/a8d8a4f2-eefc-414f-844a-6db5ca9f2a8e" />
+<img width="945" height="427" alt="image" src="https://github.com/user-attachments/assets/eb6eace2-0ab2-4b09-bf63-3b82a50b32e3" />
+<img width="945" height="452" alt="image" src="https://github.com/user-attachments/assets/271c2e5b-5ddc-44c4-838f-2f46bc721070" />
 
 Xem thông tin ngành/trường
-
-Giao diện web trực quan, dễ sử dụng
+<img width="945" height="459" alt="image" src="https://github.com/user-attachments/assets/49c2d366-a16a-478d-afd8-53743d8c49d6" />
+<img width="945" height="456" alt="image" src="https://github.com/user-attachments/assets/74c32eeb-59d1-4d57-a463-90839475a27a" />
+<img width="945" height="454" alt="image" src="https://github.com/user-attachments/assets/ddb2ef3e-9e8e-4486-a107-dccd1ba5a266" />
 
 🌍 Triển khai (Deployment)
 
