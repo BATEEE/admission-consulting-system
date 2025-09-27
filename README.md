@@ -1,8 +1,3 @@
-Rõ rồi 👍 Mình sẽ sửa toàn bộ phần ảnh trong README của bạn sang **Markdown chuẩn `![alt](link)`** để hiển thị tốt trên GitHub, đồng thời chia nhóm theo từng chức năng cho gọn gàng.
-
-👉 Đây là bản sửa của bạn:
-
-```markdown
 # Student Career Guidance System 🎓
 
 Hệ thống web hỗ trợ **tư vấn tuyển sinh cho học sinh THPT**, gồm **backend (Spring Boot)** và **frontend (React + Vite)**.  
