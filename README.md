@@ -156,7 +156,3 @@ Phát hành theo [MIT License](LICENSE)
 ```
 
 ---
-
-✅ Sau khi copy bản này vào `README.md` của bạn, tất cả ảnh sẽ hiển thị được.  
-Bạn có muốn mình làm thêm **mục lục tự động (Table of Contents)** ở đầu để người đọc click vào là nhảy đến phần đó không?
-```
