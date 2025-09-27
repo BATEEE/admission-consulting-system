@@ -81,8 +81,8 @@ VITE_API_URL=http://localhost:8080/api
 📌 Chức năng chính
 
 - Đăng ký / Đăng nhập (JWT)
-![alt text]<img width="945" height="450" alt="image" src="https://github.com/user-attachments/assets/926992b9-b090-4ce6-8f80-1bd39fbf0934" />
-<img width="945" height="457" alt="image" src="https://github.com/user-attachments/assets/4e1b0d24-5141-40ac-b878-c2c9b8d53f64" />
+![Login](https://github.com/user-attachments/assets/926992b9-b090-4ce6-8f80-1bd39fbf0934)
+![Register](https://github.com/user-attachments/assets/4e1b0d24-5141-40ac-b878-c2c9b8d53f64)
 
 - Quản lý tài khoản (Admin / Học sinh / Giáo viên)
 <img width="945" height="455" alt="image" src="https://github.com/user-attachments/assets/6d820a65-6d8e-4eb4-8bca-190af24df4b8" />
