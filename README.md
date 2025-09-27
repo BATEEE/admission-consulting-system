@@ -53,14 +53,14 @@ git clone https://github.com/<username>/<repo-name>.git
 cd <repo-name>
 
 
-2. Backend (Spring Boot)
+### 2. Backend (Spring Boot)
 cd backend
 # Import vào IntelliJ / Eclipse hoặc chạy bằng Maven
 mvn spring-boot:run
 Server chạy mặc định tại http://localhost:8080.
 
 
-3. Frontend (React + Vite)
+### 3. Frontend (React + Vite)
 cd frontend
 npm install   # hoặc yarn install
 npm run dev   # chạy ở http://localhost:5173
