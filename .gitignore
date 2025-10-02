@@ -81,4 +81,4 @@ pnpm-debug.log*
 # Custom
 ############################
 # Ignore utils folder
-utils/
+Usecasedocuments/
