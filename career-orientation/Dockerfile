@@ -16,9 +16,10 @@ FROM openjdk:17-jdk-slim
 # Thiết lập cổng lắng nghe
 EXPOSE 8080
 
-# Sao chép file WAR đã build
+# Sao chép file JAR đã build
 WORKDIR /app
-COPY --from=build /app/career-service/target/DrComputer-0.0.1-SNAPSHOT.war drcomputer.war
+# Dùng tên file chính xác từ pom.xml và đổi đuôi sang .jar
+COPY --from=build /app/career-service/target/career-service-0.0.1-SNAPSHOT.jar drcomputer.jar
 
-# Lệnh khởi chạy ứng dụng
-ENTRYPOINT ["java","-jar","drcomputer.war"]
+# Lệnh khởi chạy ứng dụng (chạy file .jar)
+ENTRYPOINT ["java","-jar","drcomputer.jar"]
