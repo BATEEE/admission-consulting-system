@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const CountDownTimer = ({ minutes, onTimeout }) => {
+const CountdownTimer = ({ minutes, onTimeout }) => {
   const [timeLeft, setTimeLeft] = useState(minutes * 60);
 
   useEffect(() => {
@@ -30,4 +30,4 @@ const CountDownTimer = ({ minutes, onTimeout }) => {
   );
 };
 
-export default CountDownTimer;
+export default CountdownTimer;

@@ -1,5 +1,5 @@
 import React from "react";
-import CountDownTimer from "./CountDownTimer";
+import CountdownTimer from "./CountdownTimer";
 
 const SummaryPanel = ({
   questions,
@@ -21,7 +21,7 @@ const SummaryPanel = ({
         </div>
 
         <div className="flex-fill">
-          <CountDownTimer minutes={30} onTimeout={onTimeout} />
+          <CountdownTimer minutes={30} onTimeout={onTimeout} />
         </div>
       </div>
 
