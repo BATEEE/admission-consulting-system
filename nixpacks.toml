@@ -1,7 +1,0 @@
-[phases.build]
-cmds = [
-  "cd career-orientation && chmod +x mvnw && ./mvnw clean package -DskipTests"
-]
-
-[start]
-cmd = "cd career-orientation && java -jar target/*.jar"
