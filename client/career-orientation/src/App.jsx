@@ -23,6 +23,7 @@ import BenchMark from "./pages/BenchMark";
 import UniversityDetails from "./components/UniversityDetails";
 import ScoreCheck from "./pages/ScoreCheck";
 import Dashboard from "./pages/admin/Dashboard";
+import Home from "./pages/Home";
 
 function ProtectedRoutes({ user, requiredRoles, isLoading }) {
   if (isLoading) return <div>Loading...</div>;
@@ -78,7 +79,7 @@ function App() {
           <Routes>
             {/* Routes dùng MainLayout (public routes) */}
             <Route element={<MainLayout />}>
-              <Route path="/" element={<h2>Trang Chủ</h2>} />
+              <Route path="/" element={<Home />} />
               <Route path="/majors" element={<Major />} />
               <Route
                 path="/quizzes"
