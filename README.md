@@ -145,7 +145,7 @@ VITE_API_URL=http://localhost:8080/api
 ## 👨‍💻 Nhóm thực hiện
 
 * **Trần Tuấn Thắng** (Backend + Frontend)
-* **Giảng viên hướng dẫn**: ThS. Phan Trần Minh Khuê
+* **Giảng viên hướng dẫn**: TS. Phan Trần Minh Khuê
 
 ---
 
