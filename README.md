@@ -45,6 +45,10 @@ The data depends on public sources from universities → it requires a mechanism
 ├── README.md
 └── LICENSE
 
+````
+
+---
+
 ## ⚙️ Installation & Setup
 
 ### 1. Clone project
