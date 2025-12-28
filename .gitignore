@@ -1,0 +1,84 @@
+############################
+# OS / Editor / IDE
+############################
+.DS_Store
+Thumbs.db
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+############################
+# Java / Spring Boot
+############################
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# JVM crash logs
+hs_err_pid*
+replay_pid*
+
+# Maven / Gradle
+target/
+build/
+.mvn/wrapper/maven-wrapper.jar
+.gradle/
+**/build/
+
+############################
+# Node / React (Vite)
+############################
+# dependencies
+node_modules/
+
+# production build
+dist/
+
+# env files
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+############################
+# Misc
+############################
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+############################
+# Custom
+############################
+# Ignore utils folder
+Usecasedocuments/

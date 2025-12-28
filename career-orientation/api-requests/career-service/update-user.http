@@ -1,0 +1,13 @@
+### Update an existing user entity
+PUT http://localhost:4000/users/8
+Content-Type: application/json
+
+{
+  "firstName": "Tran Tuan",
+  "lastName": "Thang1",
+  "email": "thang@gmail.com",
+  "role": "STUDENT",
+  "gender": true,
+  "dob": "1990-05-16"
+}
+###

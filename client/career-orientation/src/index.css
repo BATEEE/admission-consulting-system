@@ -1,0 +1,110 @@
+/** **************************************
+* Fonts: app
+*************************************** */
+@import "@fontsource/dm-sans/400.css";
+@import "@fontsource/dm-sans/500.css";
+@import "@fontsource/dm-sans/600.css";
+@import "@fontsource/dm-sans/700.css";
+@import "@fontsource/dm-sans/800.css";
+
+
+/** **************************************
+* Plugins
+*************************************** */
+
+/** **************************************
+* Baseline
+*************************************** */
+html {
+  height: 100%;
+  -webkit-overflow-scrolling: touch;
+}
+body,
+#root,
+#root__layout {
+  display: flex;
+  flex: 1 1 auto;
+  min-height: 100%;
+  flex-direction: column;
+}
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+input[type='number'] {
+  -moz-appearance: textfield;
+  appearance: none;
+}
+input[type='number']::-webkit-outer-spin-button {
+  margin: 0;
+  -webkit-appearance: none;
+}
+input[type='number']::-webkit-inner-spin-button {
+  margin: 0;
+  -webkit-appearance: none;
+}
+
+
+/* Home --------------------------------------------------------------------------------------------- */
+
+/* Hiệu ứng chuyển động cơ bản */
+.transition-300 {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hiệu ứng phóng to nhẹ cho thẻ khi hover */
+.hover-scale-up:hover {
+    transform: translateY(-5px); /* Nâng thẻ lên */
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important; /* Tạo bóng sâu */
+}
+
+/* Hiệu ứng cho thẻ Ngành nổi bật */
+.major-card:hover {
+    background-color: #f8f9fa; /* Thay đổi màu nền nhẹ */
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+/* Màu chữ trắng cho phần Hero (do có ảnh nền) */
+.text-white-75 {
+    color: rgba(255, 255, 255, 0.75) !important;
+}
+
+/* Đảm bảo nội dung chính nằm trên Watermark */
+.main-content-watermark {
+    position: relative; /* Quan trọng: Thiết lập bối cảnh cho Watermark */
+    overflow: hidden; /* Ngăn Watermark tràn ra ngoài */
+    background-color: #ffffff; /* Đặt nền trắng (hoặc màu sáng) để Watermark nổi bật */
+}
+
+/* Định nghĩa Watermark Dạng Văn Bản Lặp Lại (Tiled Text Watermark) */
+.main-content-watermark::before {
+    /* Các thuộc tính cơ bản */
+    content: ""; /* Bắt buộc phải là rỗng để dùng background-image */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    /* TẠO MẪU WATERMARK BẰNG SVG DATA URI */
+    /* Watermark: "Tư Vấn Tuyển Sinh" (hoặc "DỰ ÁN") xoay -45 độ */
+    /* Màu: #000000 với độ mờ 5% (rất mờ) */
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='100px' width='200px' transform='rotate(-45)'> <text x='0' y='50' fill='rgba(0, 0, 0, 0.03)' font-size='18' font-family='DM Sans, sans-serif'>DỰ ÁN ĐỒ ÁN</text> </svg>");
+    
+    background-repeat: repeat; /* QUAN TRỌNG: Lặp lại mẫu */
+    background-size: 250px 250px; /* Kích thước vùng lặp lại (kiểm soát khoảng cách) */
+    
+    /* Độ mờ tổng thể (có thể bỏ qua vì đã thiết lập độ mờ trong SVG) */
+    /* opacity: 1; */ 
+    
+    /* Đảm bảo Watermark nằm dưới cùng */
+    z-index: 0; 
+    
+    /* Cho phép con trỏ chuột xuyên qua Watermark */
+    pointer-events: none; 
+}
