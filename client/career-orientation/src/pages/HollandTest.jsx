@@ -29,7 +29,7 @@ const HollandTest = () => {
     const loadQuestions = async () => {
         try {
             setIsLoading(true);
-            const url = `${endpoints["questions-random"]}?total=6`;
+            const url = `${endpoints["questions-random"]}?total=18`;
             const res = await Apis.get(url);
             setQuestions(res.data);
             if (res.data.length > 0) loadAnswers(res.data[0].id);
@@ -230,10 +230,10 @@ const HollandTest = () => {
                         handleSubmit={() => setFinished(true)}
                     />
                     <div className="p-3 border-top">
-                        <Button 
-                            variant="success" 
+                        <Button
+                            variant="success"
                             onClick={() => setFinished(true)}
-                            className="w-100" 
+                            className="w-100"
                             disabled={answeredCount < questions.length}
                         >
                             Nộp bài kiểm tra
