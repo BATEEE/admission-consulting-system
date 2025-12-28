@@ -1,8 +1,8 @@
 import axios from "axios";
 import cookie from "react-cookies";
 
-const BASE_URL = "http://localhost:4000/career-service";
-// const BASE_URL = "https://admission-consulting-system.onrender.com/career-service";
+// const BASE_URL = "http://localhost:4000/career-service";
+const BASE_URL = "https://admission-consulting-system.onrender.com/career-service";
 
 export const endpoints = {
   blocks: "/blocks",
