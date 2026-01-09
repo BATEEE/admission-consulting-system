@@ -1,25 +1,16 @@
 name: Keep SpringBoot Alive
 
 permissions:
-  contents: write
+  contents: read
 
 on:
   schedule:
-    # Every 14 minutes
-    - cron: '*/14 * * * *'
+    - cron: "*/14 * * * *" # Every 14 minutes
   workflow_dispatch:
 
 jobs:
   ping_health:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-
     steps:
-      - uses: actions/checkout@v3
-
       - name: Ping Server & Database
         run: curl -I --max-time 10 https://admission-consulting-system.onrender.com/career-service/health
-
-      - name: Keep Workflow Active
-        uses: gautamkrishnar/keepalive-workflow@v1
