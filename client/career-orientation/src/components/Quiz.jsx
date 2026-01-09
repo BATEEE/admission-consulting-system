@@ -20,8 +20,8 @@ const Quiz = ({ onStart }) => {
         </h5>
 
         <div className="mb-3">
-          <span className="fw-bold">Số câu:</span> 30 câu
-          <span className="ms-4 fw-bold">Thời gian làm bài:</span> 30 phút
+          <span className="fw-bold">Số câu:</span> 18 câu
+          <span className="ms-4 fw-bold">Thời gian làm bài:</span> 18 phút
         </div>
 
         <div className="mb-4">

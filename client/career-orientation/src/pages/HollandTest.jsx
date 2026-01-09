@@ -10,6 +10,7 @@ import CountdownTimer from "../components/CountdownTimer"; // Đảm bảo impor
 
 const HollandTest = () => {
     const navigate = useNavigate();
+    const NUMBER_QUESTIONS = 18;
     const [questions, setQuestions] = useState([]);
     const [answersData, setAnswersData] = useState({});
     const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -29,7 +30,7 @@ const HollandTest = () => {
     const loadQuestions = async () => {
         try {
             setIsLoading(true);
-            const url = `${endpoints["questions-random"]}?total=18`;
+            const url = `${endpoints["questions-random"]}?total=${NUMBER_QUESTIONS}`;
             const res = await Apis.get(url);
             setQuestions(res.data);
             if (res.data.length > 0) loadAnswers(res.data[0].id);
