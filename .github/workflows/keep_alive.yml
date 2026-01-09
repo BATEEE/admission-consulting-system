@@ -1,5 +1,8 @@
 name: Keep SpringBoot Alive
 
+permissions:
+  contents: write
+
 on:
   schedule:
     # Every 14 minutes
