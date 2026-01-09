@@ -1,4 +1,0 @@
-### GET request to get all quizzes
-GET http://localhost:4000/quizzes
-
-###
