@@ -1,4 +1,0 @@
-### GET request to get all majors
-GET http://localhost:4000/majors
-
-###
