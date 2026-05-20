@@ -14,12 +14,15 @@ public class HealthCheckController {
     @GetMapping("/health")
     public ResponseEntity<String> healthCheck() {
         try {
-            jdbcTemplate.queryForObject("SELECT 1", Integer.class);
+            Integer result = jdbcTemplate.queryForObject(
+                    "SELECT 1",
+                    Integer.class
+            );
 
-            return ResponseEntity.ok("Server is Active & Database is Warm!");
+            return ResponseEntity.ok("OK " + result);
         } catch (Exception e) {
-            e.printStackTrace();
-            return ResponseEntity.status(500).body("Database Error: " + e.getMessage());
+            return ResponseEntity.status(500)
+                    .body("DB ERROR");
         }
     }
 }
