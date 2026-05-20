@@ -1,16 +1,16 @@
-name: Keep SpringBoot Alive
-
-permissions:
-  contents: read
+name: Keep Render Awake
 
 on:
   schedule:
-    - cron: "*/14 * * * *" # Every 14 minutes
+    - cron: "*/10 * * * *"
   workflow_dispatch:
 
 jobs:
-  ping_health:
+  ping:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Ping Server & Database
-        run: curl -I --max-time 10 https://admission-consulting-system.onrender.com/career-service/health
+      - name: Ping app
+        run: |
+          curl --silent --show-error --fail \
+          https://admission-consulting-system.onrender.com/career-service/health
